@@ -1,4 +1,4 @@
-package com.example.rabbitmq_tutorial;
+package com.example.rabbitmq_mini_project;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
