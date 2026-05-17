@@ -1,0 +1,52 @@
+# Spring Initializr notes
+HELP.md
+
+# Build output
+target/
+build/
+out/
+*.class
+
+# Maven wrapper binary is not needed for this repo's only-script wrapper setup.
+.mvn/wrapper/maven-wrapper.jar
+
+# Local config and secrets
+.env
+.env.*
+src/main/resources/application-local.properties
+src/main/resources/application-local.yml
+src/main/resources/application-local.yaml
+
+# Logs and runtime dumps
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# macOS
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse / STS
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
